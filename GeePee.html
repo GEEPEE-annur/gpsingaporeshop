@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gee Pee Singapore Shop</title>
+    <style>
+
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+
+
+
+
+
+
+        body {font-family: Arial, Helvetica, sans-serif;}
+
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+  
+}
+{box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  width: auto;
+  padding-bottom: 10px;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+.brand{
+    text-align: center;
+    text-decoration:solid;
+    text-transform: capitalize;
+    
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  -ms-flex: 31%; 
+  flex: 31%;
+  max-width: 31%;
+  padding: 0 10px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.4);
+    padding: 50px;
+    text-align: center;
+    max-width: 400px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2 {
+    color: #36b75a;
+    margin-bottom: 10px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    color: #666;
+}
+
+.msg {
+    display: none;
+    color: green;
+    margin-top: 40px;
+}
+
+
+input[type="email"] {
+    width: 65%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+}
+
+button {
+    background-color: crimson;
+    color: #fff;
+    padding: 10px 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+}
+
+button:hover {
+    background-color: #65686b;
+}
+
+
+{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
+.bt1{
+    background-color: violet;
+}
+
+    </style>
+</head>
+
+
+
+<div class="topnav">
+    <a class="home" href="login.html">Login</a>
+    <a href="about" href="">Contact</a>
+    <a href="cart">Cart</a>
+    <div class="search-container">
+      <form action="/action_page.php">
+        <input type="text" placeholder="Search.." name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+  </div>
+  
+  
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn">Mobiles 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+             
+             <button class="bt1"> <a href="vivo.html">Vivo</a></button>
+              <button class="bt1"> <a href="oppo.html">Oppo</a></button>
+              <button class="bt1"> <a href="samsung.html">Samsung</a></button>
+              <button class="bt1"> <a href="moto.html">Moto</a></button>
+              <button class="bt1"> <a href="Iphone.html">Iphone</a></button>
+              <button class="bt1"> <a href="Redmi.html">Redmi</a></button>
+              <button class="bt1"> <a href="Realmi.html">Realmi</a></button>
+              <button class="bt1"> <a href="One plus.html">One Plus</a></button>
+              <button class="bt1"> <a href="Lava.html">Lava</a></button>
+              <button class="bt1"> <a href="Poco.html">Poco</a></button>
+              <button class="bt1"> <a href="oppo.html">IQOO</a></button>
+              <button class="bt1"> <a href="Infinix.html">Infinix</a></button>
+              <button class="bt1"> <a href="keypad.html">Keypad Mobiles</a></button>
+              <button class="bt1"> <a href="nothing.html">Nothing</a></button>
+             
+
+            </div>
+          </div> 
+
+
+          
+          <div class="dropdown">
+            <button class="dropbtn">Watches 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <button class="bt1"> <a href="sonata.html">Sonata</a></button>
+                <button class="bt1"> <a href="fastrack.html">Fastrack</a></button>
+                <button class="bt1"> <a href="lamex.html">Lamex</a></button>
+                <button class="bt1"> <a href="sonex.html">Sonex</a></button>
+                <button class="bt1"> <a href="fancy.html">Fancy Watch</a></button>
+                <button class="bt1"> <a href="lenco.html">Lenco</a></button>
+                <button class="bt1"> <a href="titan.html">Titan</a></button>
+                <button class="bt1"> <a href="timex.html">Timex</a></button>
+                <button class="bt1"> <a href="smart.html">Smart watch</a></button>
+               
+            </div>
+          </div> 
+          <div class="dropdown">
+            <button class="dropbtn">Bags
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <button class="bt1"> <a href="hand.html">Hand Bags</a></button>
+                <button class="bt1"> <a href="school.html">School bags</a></button>
+                <button class="bt1"> <a href="lunch.html">Lunch bag</a></button>
+                <button class="bt1"> <a href="jute.html">Jute bag</a></button>
+                <button class="bt1"> <a href="shop.html">Shopping bag</a></button>
+                <button class="bt1"> <a href="travel.html">Travel bag</a></button>
+               
+            </div>
+          </div> 
+          <div class="dropdown">
+            <button class="dropbtn">Home Appliance 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <button class="bt1"> <a href="cello.html">Cello Hotpacks</a></button>
+                <button class="bt1"> <a href="milton.html">Milton Flask</a></button>
+                <button class="bt1"> <a href="kettle.html">Kettle</a></button>
+                <button class="bt1"> <a href="lunchbox.html">Lunch box</a></button>
+                <button class="bt1"> <a href="speaker.html">Speakers</a></button>
+                <button class="bt1"> <a href="glass.html">Glasses</a></button>
+                <button class="bt1"> <a href="kitchen.html">Kitchen Set</a></button>
+                <button class="bt1"> <a href="dinner.html">Dinner set</a></button>
+               
+            </div>
+          </div> 
+          <div class="dropdown">
+            <button class="dropbtn">Gift
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <button class="bt1"> <a href="frames.html">Frames</a></button>
+                <button class="bt1"> <a href="night.html">Night Lamps</a></button>
+                <button class="bt1"> <a href="magic.html">Magic frame</a></button>
+                <button class="bt1"> <a href="statue.html">Statue</a></button>
+                <button class="bt1"> <a href="wall.html">Wall Clocks</a></button>
+               
+             
+            </div>
+          </div> 
+          <div class="dropdown">
+            <button class="dropbtn">Sports Items
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <button class="bt1"> <a href="cricket.html">Cricket Bat</a></button>
+                <button class="bt1"> <a href="shuttle.html">Shuttle bat</a></button>
+                <button class="bt1"> <a href="chess.html">Chess</a></button>
+                <button class="bt1"> <a href="foot.html">Foot Ball</a></button>
+                <button class="bt1"> <a href="volley.html">Volley Ball</a></button>
+                <button class="bt1"> <a href="carrom.html">Carrom</a></button>
+                <button class="bt1"> <a href="shoe.html">Shoes</a></button>
+               
+            </div>
+          </div> 
+
+          <div class="dropdown">
+            <button class="dropbtn">Accessories
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <button class="bt1"> <a href="head.html">Head set</a></button>
+                <button class="bt1"> <a href="charger.html">Chargers</a></button>
+                <button class="bt1"> <a href="sd.html">SD card</a></button>
+                <button class="bt1"> <a href="pen.html">Pen drive</a></button>
+                <button class="bt1"> <a href="cable.html">Cable</a></button>
+                <button class="bt1"> <a href="power.html">Power bank</a></button>
+                <button class="bt1"> <a href="buds.html">Buds</a></button>
+                <button class="bt1"> <a href="car.html">Car Charger</a></button>
+                <button class="bt1"> <a href="neck.html">Neck Band</a></button>
+               
+            </div>
+          </div> 
+          <div class="dropdown">
+            <button class="dropbtn">Mens Collection
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <button class="bt1"> <a href="shirt.html">Shirts</a></button>
+                <button class="bt1"> <a href="pants.html">Pants</a></button>
+                <button class="bt1"> <a href="belt.html">Belts</a></button>
+                <button class="bt1"> <a href="sun.html">Sun Glass</a></button>
+                <button class="bt1"> <a href="jerkins.html">Jerkins</a></button>
+               
+            </div>
+          </div>
+
+      </div>
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="img/123.png" style="width:100%">
+          <div class="text">Caption Text</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="img/Koala.jpg" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="img/Jellyfish.jpg" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+        
+        <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+<h1 class="brand">Brands</h1>
+
+
+        <marquee behavior="scroll" direction="left">
+            <img src="img/Vivo-Logo.png" width="300" height="100" alt="Natural" />
+            <img src="img/oppo1.png" width="300" height="100" alt="Natural" />
+            <img src="img/moto1.png" width="300" height="100" alt="Natural" />
+            <img src="img/samsung.png" width="300" height="100" alt="Natural" />
+            <img src="img/iphone.png" width="300" height="100" alt="Natural" />
+            <img src="img/mi.png" width="300" height="100" alt="Natural" />
+            <img src="img/nothing.png" width="300" height="100" alt="Natural" />
+            <img src="img/itel.png" width="300" height="100" alt="Natural" />
+            <img src="img/realme.png" width="300" height="100" alt="Natural" />
+            <img src="img/lava.png" width="200" height="90" alt="Natural" />
+            <img src="img/nokia.png" width="300" height="100" alt="Natural" />
+            <img src="img/HMD1.png" width="300" height="100" alt="Natural" /> 
+            <img src="img/poco.png" width="300" height="100" alt="Natural" />
+          </marquee>
+          <div class="header">
+            <h1>Experience Meets Innovation</h1>
+            <p>Run by Passion, Powered by Trust</p>
+          </div>
+          
+          <!-- Photo Grid -->
+          <div class="row"> 
+            <div class="column">
+              <img src="img/Koala.jpg" style="width:100%">
+
+            </div>
+            <div class="column">
+              <img src="img/Jellyfish.jpg" style="width:100%">>
+            </div>  
+            <div class="column">
+              <img src="img/Lighthouse.jpg" style="width:100%">
+            </div>
+
+            </div>
+          </div>
+          
+          <div class="container">
+            <div class="card">
+                <h2>Subscribe For Latest Updates</h2>
+                <p>Be the Part of Something Awesome</p>
+                <form id="thanks" method="POST">
+                    <input type="email" name="email" 
+                        id="email" 
+                        placeholder="Enter your email" 
+                        required>
+                    <button type="submit">
+                        Subscribe
+                    </button>
+                </form>
+                
+                <p class="msg" id="congo">
+                    Thanks for subscribing!
+                </p>
+            </div>
+        </div>   
+
+    
+
+
+          
+            
+          
+
+</body>
+</html>
